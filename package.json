@@ -1,0 +1,34 @@
+{
+  "name": "europa-office-systems",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for Europa Office Systems, Kukatpally, Hyderabad - projectors, CCTV, AV receivers, home theatre, screens and acoustic panels.",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check:site": "node scripts/check-site.mjs",
+    "verify": "npm run lint && npm run typecheck && npm run test && npm run build"
+  },
+  "dependencies": {
+    "next": "16.3.8",
+    "react": "19.2.9",
+    "react-dom": "19.2.9"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "16.3.8",
+    "node-html-parser": "^7.0.1",
+    "typescript": "5.9.3",
+    "vitest": "^4.1.12"
+  }
+}
