@@ -3,6 +3,7 @@ import { addressOneLine, business, telHref } from '@/lib/site'
 import { whatsappUrl } from '@/lib/whatsapp'
 import { defaultWhatsappMessage } from '@/lib/services'
 import { companyLinks, legalLinks, serviceLinks } from '@/lib/nav'
+import { BlixerCredit } from './BlixerCredit'
 import { CookieSettingsButton } from './Analytics'
 import { CopyrightYear } from './CopyrightYear'
 
@@ -84,6 +85,7 @@ export function SiteFooter() {
             © <CopyrightYear /> {business.name}. Brand names are trademarks of their owners. Photos are illustrative stock images (Unsplash).
           </p>
           <CookieSettingsButton />
+          <BlixerCredit />
         </div>
       </div>
     </footer>
